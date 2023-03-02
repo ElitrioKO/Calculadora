@@ -7,11 +7,46 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>
+    <script type="text/javascript" src="components/motor.js">
     </script>
 </head>
 <body>
+    <style>
+        h1 {
+  color: Purple;
+  text-align: center;
+    background-color: Yellow;
+}
+       h2 {
+  color: Yellow;
+  background-color: Blue
+       }
+       h3 {
+  color: Yellow;
+       }
+        body{
+                background-color: Purple;
+  background-size:100%;
+}
+        </style>
 	<br />
-    This is a template for Monaca app.
+    
+        <h1>
+            Calculadora
+            </h1>
+            
+<input type="number" id="valor" placeholder="1° Valor">
+<input type="number" id="2valor" placeholder="2° Valor">
+<input type="number" id="3valor" placeholder="3° Valor">
+<input type="number" id="resultadoporem" placeholder="Resultado" disabled="">
+<input onclick="regra()" type="button" id="btnCalcular" value="Calcular">
+
+<h2 id="resultado"></h2>
+<h3 id="resultado2"></h3>
+<h3 id="resultado3"></h3>
+<h3 id="resultado4"></h3>
+<h3 id="resultado5"></h3>
+
+
 </body>
 </html>
